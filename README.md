@@ -1,6 +1,6 @@
 # MMD - Modular Monolith Design
 
-MMD or Modular Monolith Design is an approach to develop modular monolith applications in a sistematic way. It's based on consolidated backgrounds like Domain Driven Design (http://dddcommunity.org), Enterprise Application Architecture Patterns (https://martinfowler.com/articles/enterprisePatterns.html), SOLID and Object Oriented principles. More than just declaring itself based on Domain Driven Design, MMD proposes to be a more prescriptive DDD specialization in even more specific scenarios.
+MMD or Modular Monolith Design is an approach to develop modular monolith applications in a sistematic way. It's based on consolidated backgrounds like Domain Driven Design (http://dddcommunity.org), Enterprise Application Architecture Patterns (https://martinfowler.com/articles/enterprisePatterns.html), SOLID and Object Oriented principles. Anything in MDD is new, it just defines a more prescritive way to implement DDD in the code level.
 
 ## Motivations
 
@@ -16,7 +16,7 @@ The MMD's objectives are listed below:
 
 1. Enable writing code ready to change
 
-Software changes should not impact unrelated parts of the application. MMD  aims to help developers to write high maintenable code.
+Software changes should not impact unrelated parts of the application. MMD aims to help developers to write high maintenable code.
 
 2. Enable writing high readable code
 
@@ -24,21 +24,37 @@ High readability allows developers to quickly understand application's aspects l
 
 3. Reduce application inconsistent state possibilities at business level
 
+MMD aims to avoid all application inconsistent states possibilites at business level. 
+
 4. Standardize the way how things are done and where each business aspect is handled
 
-5. Drive creation of libs to support the approach
+Uniformity in the organization of the code favors developers understanding. MMD aims to standardize how the actions are organized in a application, so developers can easily understand and start working ina a MMD project.
 
 ## MMD Principles
 
-1. Different business contexts implementations 
+1. Domain Model isolated from infrastructure aspects
+
+Business code must be clean in order to a code reader can identify the business rules there. Since the business aspects are consolidated and isolated from infrastructure aspects, there is only one place in the code to look for errors.
+
+2. Business code should cover the whole ubiquitous language
+
+All relevant business terms and operations should be expressed by a MDD application's business code. If some business aspect is missing from the business code, it is likely to "leak" to outside the boundaries of the business code.
+
+3. Business Contexts Separations
+
+Different business context's code should not have direct dependencies each other. This way, distinct context implementations can have their own lifecycle and evolve each in time.
+
+4. Standard Patterns and Conventions
+
+Code that is written according to standards is more easily understood by people who follow the same standards.
+
+5. Technology Agnostic
+
+MDD (as well as DDD) should be agnostic about technology in order to people who use different technologies can have benefits of using MDD.
 
 ## Strategic MMD
 
-### Ubiquitous Language
-
-### Bounded Contexts
-
-#### Context Mappings
+In principle, MDD follows DDD's recommendations at the strategic level.
 
 ## Tatic MMD
 
