@@ -1,6 +1,6 @@
 # MMD - Modular Monolith Design
 
-MMD or Modular Monolith Design is an approach to develop modular monolith applications in a sistematic way. It's based on consolidated backgrounds like Domain Driven Design (http://dddcommunity.org), Enterprise Application Architecture Patterns (https://martinfowler.com/articles/enterprisePatterns.html), SOLID and Object Oriented principles. Anything in MDD is new, it just defines a more prescritive way to implement DDD in the code level.
+MMD or Modular Monolith Design is an approach to develop modular monolith applications in a sistematic way. It's based on consolidated backgrounds like Domain Driven Design (http://dddcommunity.org), Enterprise Application Architecture Patterns (https://martinfowler.com/articles/enterprisePatterns.html), SOLID and Object Oriented principles. Nothing in MDD is new, it just defines a more prescritive way to implement DDD in the code level.
 
 ## Motivations
 
