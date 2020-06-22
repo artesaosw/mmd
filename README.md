@@ -36,7 +36,7 @@ Business code must be clean so that a code reader can identify the business rule
 
 2. Business code should cover the whole ubiquitous language
 
-All relevant business terms and operations should be expressed by a MDD application's business code. If some business aspect is missing from the business code, it is likely to "leak" to outside the boundaries of the business code. Besides that, a business code focused on represent business process and operations (instead of focused only on software features) favors developers to build valuable software features just reusing code already existent.
+All relevant business terms and operations should be expressed by a MDD application's business code. If any business aspect relevant to a application is missing from the business code, it is common to have the business code leaked out of bounds. Besides that, a business code focused on represent business process and operations (instead of focused only on software features) favors developers to build valuable software features just reusing code already existent.
 
 3. Business Contexts Separations
 
@@ -44,15 +44,15 @@ Different business context's code should not have direct dependencies each other
 
 4. Standard Patterns and Conventions
 
-Code that is written according to standards is more easily understood by people who follow the same standards.
+Code that is written according to standards is more easily understood by people who follow the same standards. Code based on MMD should follow some conventions which make the code easy to understand by people who also knows MMD.
 
 5. Technology Agnostic
 
-MDD (as well as DDD) should be agnostic about technology in order to people who use different technologies can have benefits of using MDD.
+MDD (as well as DDD) should be agnostic about technology in order to people who use different technologies can have benefits of using MDD. MDD uses object oriented principles to describe its patterns, so the techniques applied here requires a programming language with object oriented programming features.
 
 ## Strategic MMD
 
-In principle, MDD follows DDD's recommendations at the strategic level.
+In principle, MDD follows DDD's recommendations at the strategic level. Strategic design is the most important part of DDD and MMD recognizes that. MMD incentivates the use of DDD's strategic design concepts, values and principles as a effective way to developer can empower himself/herself regarding application domain.
 
 ## Tatic MMD
 
