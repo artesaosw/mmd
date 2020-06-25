@@ -64,6 +64,8 @@ In principle, MDD follows DDD's recommendations at the strategic level. Strategi
 
 #### Rich Domains (avoiding primitive obsession)
 
+#### Design By Contract
+
 #### Agregates
 
 ##### Agregate Roots
@@ -75,6 +77,8 @@ In principle, MDD follows DDD's recommendations at the strategic level. Strategi
 ##### Event Listeners
 
 #### Repositories
+
+#### Domain Services
 
 ### Reading Model
 
@@ -89,3 +93,7 @@ In principle, MDD follows DDD's recommendations at the strategic level. Strategi
 #### Independency of Bounded Contexts
 
 ### An example of MMD Implementation with Java/Spring
+
+#### ORM Framework Integration
+
+#### Dependency Injection Framework Integration
