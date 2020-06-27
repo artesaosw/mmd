@@ -70,13 +70,15 @@ In principle, MDD follows DDD's recommendations at the strategic level. Strategi
 
 ##### Agregate Roots
 
+#### Factories 
+
 #### Domain Events
+
+#### Repositories
 
 ##### Event Dispatchers
 
 ##### Event Listeners
-
-#### Repositories
 
 #### Domain Services
 
