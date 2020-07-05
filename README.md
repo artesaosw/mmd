@@ -52,9 +52,9 @@ MDD (as well as DDD) should be agnostic about technology in order to people who 
 
 ## Strategic MMD
 
-In principle, MDD follows DDD's recommendations at the strategic level. Strategic design is the most important part of DDD and MMD recognizes that. MMD incentivates the use of DDD's strategic design concepts, values and principles as a effective way to developer can empower himself/herself regarding application domain.
+In principle, MDD follows DDD's recommendations at the strategic level. Strategic design is the most important part of DDD and MMD recognizes that. MMD incentivates the use of DDD's strategic design concepts, values and principles as a effective way to developer can empower himself/herself regarding application domain. Ubiquitous language, Bounded contexts and context maps are the DDD's main concepts and MMD takes advantage of these concepts to build consistent modular monoliths that are aligned to application's bounded contexts. 
 
-## Tatic MMD
+## Tatical MMD
 
 ### Writing Model
 
